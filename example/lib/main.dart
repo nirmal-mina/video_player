@@ -4,10 +4,6 @@
 
 // ignore_for_file: public_member_api_docs
 
-/// An example of using the plugin, controlling lifecycle and playback of the
-/// video.
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
@@ -122,7 +118,7 @@ class _ExampleCard extends StatelessWidget {
             leading: const Icon(Icons.airline_seat_flat_angled),
             title: Text(title),
           ),
-          ButtonBar(
+          OverflowBar(
             children: <Widget>[
               TextButton(
                 child: const Text('BUY TICKETS'),

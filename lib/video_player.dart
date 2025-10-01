@@ -8,7 +8,6 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:meta/meta.dart';
 import 'src/interface/video_player_platform_interface.dart';
 
 export 'src/interface/video_player_platform_interface.dart'

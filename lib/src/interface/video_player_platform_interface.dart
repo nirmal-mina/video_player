@@ -3,11 +3,9 @@
 // found in the LICENSE file.
 
 import 'dart:async';
-import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:meta/meta.dart' show visibleForTesting;
 
 import 'method_channel_video_player.dart';
 
