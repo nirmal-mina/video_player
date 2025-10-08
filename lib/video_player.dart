@@ -182,7 +182,7 @@ class VideoPlayerController extends ValueNotifier<VideoPlayerValue> {
   /// The name of the asset is given by the [dataSource] argument and must not be
   /// null. The [package] argument must be non-null when the asset comes from a
   /// package and null otherwise.
-  VideoPlayerController.asset(
+  VideoPlayerController.asset(String s, 
       {this.videoDataSource,
       this.audioDataSource,
       this.package,
@@ -203,7 +203,7 @@ class VideoPlayerController extends ValueNotifier<VideoPlayerValue> {
   /// the video format detection code.
   /// [httpHeaders] option allows to specify HTTP headers
   /// for the request to the [dataSource].
-  VideoPlayerController.network({
+  VideoPlayerController.network(String s, {
     this.videoDataSource,
     this.audioDataSource,
     this.formatHint,
